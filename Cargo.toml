@@ -1,0 +1,26 @@
+[package]
+name = "ethlogger"
+version = "0.0.1"
+authors = ["microdimen <microdimen@gmail.com>"]
+
+[lib]
+name = "ethlogger"
+path = "src/lib.rs"
+
+[dependencies]
+ethabi = "5.0"
+ethabi-derive = "5.0"
+ethabi-contract = "5.0"
+web3 = "0.3.1"
+rustc-hex = "1.0"
+error-chain = "0.11"
+ethereum-types = "0.3"
+tokio-core = "0.1"
+futures = "0.1.23"
+tokio-timer = "0.1"
+serde = "1.0.0"
+serde_json = "1.0.26"
+log = { version = "0.4.0", features= ["max_level_debug"] }
+
+env_logger = "0.5.13"
+
